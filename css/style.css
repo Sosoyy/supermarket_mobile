@@ -1,0 +1,26 @@
+@charset "utf-8";
+/*login*/
+.g-innercontent{padding: 1rem 1.67rem 1.25rem 1.67rem;}
+.u-loginform .u-loginname,.u-password,.u-submit,.u-registerlink{margin-top: 0.83rem;display: block;}
+.u-loginform .u-registerlink .reg{color: #e74649;font-size: 1.2rem;float: right;}
+
+/*reg*/
+.g-regnav{background-color: #fff;}
+.g-regnav dd{padding: 1.28rem 0.3rem;box-sizing: border-box;}
+.g-regnav .nav li{margin-left: 0.6rem;font-size: 1.5rem;color: #aaa;}
+.g-regnav .nav li+li:before{content: '>';margin-right:0.6rem;color: #aaa;font-weight: bold;}
+.g-regnav .nav .active{color: #e74649;}
+
+.u-regform .u-tel, .u-rule,.u-submit{margin-top: 0.83rem;font-size: 1.1rem}
+.u-regform .u-rule a{color: #e74649;font-size: 1.1rem}
+
+/*home*/
+.u-search-area{text-align: center;font-size:1.4rem;width:20rem;height: 2.4rem;line-height:2.4rem;border-radius: 0.3rem;-moz-border-radius: 0.3rem;
+    -webkit-border-radius: 0.3rem;border: 0;vertical-align: middle;margin-left:1.5rem;background-color: #A03D3F;color: #fff;}
+.u-search-area i{font-size:1.4rem }
+.u-scrollcontent{width: 100%;  height: 16.5rem;overflow: hidden;}
+.swiper-slide {  text-align: center;  background: #fff;
+    display: -webkit-box;  display: -ms-flexbox;  display: -webkit-flex;  display: flex;
+    -webkit-box-pack: center;  -ms-flex-pack: center;  -webkit-justify-content: center;  justify-content: center;
+    -webkit-box-align: center;  -ms-flex-align: center;  -webkit-align-items: center;  align-items: center; }
+.swiper-slide  img{width: 100%;height: 100%;}
