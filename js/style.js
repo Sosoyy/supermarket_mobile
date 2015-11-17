@@ -6,3 +6,11 @@
 var swiper = new Swiper('.u-scrollcontent', {
     loop: true, autoplay: 2000, pagination: '.swiper-pagination',
 });
+
+$('footer>ul>li').click(function(){
+    $(this).find('i.fill').show();
+    $(this).siblings('li').find('i.line').show();
+    $(this).find('i.line').hide();
+    $(this).siblings('li').find('i.fill').hide();
+
+});

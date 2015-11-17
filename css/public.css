@@ -26,11 +26,11 @@ hr{border:0;height:1px}
 .block{display: block;}
 .inline{display: inline;}
 .inline-block{display: inline-block;}
+.none{display: none;}
 /*font-size*/
 html{font-size: 62.5%}
 @media screen and (min-width:375px){
     html{font-size:73.24%}
-
 }
 @media screen and (min-width:414px){
     html{font-size:80.86%}
@@ -62,6 +62,7 @@ html{font-size: 62.5%}
 }
 
 body{margin: 0 auto;width: 100%;max-width: 640px; min-width: 320px;}
+.bodybox{margin: 0 auto;width: 100%;margin-top: 3.83rem;overflow: hidden;}
 .s-gray{background-color: #ededed;}
 header{height:3.83rem;width:100%;position:relative;background-color: #e74649;line-height: 3.83rem;
     color: #fff;font-size: 2rem;text-align: center;vertical-align: middle;padding: 0.8rem;box-sizing: border-box;}
@@ -90,9 +91,11 @@ input[type='checkbox']:checked{background-color: #e74649;color: #fff;border: 0;}
     margin: 0 auto;bottom:0;position: fixed;display: block;}
 .g-scrollwrap{width: 100%;max-width: 640px; min-width: 320px;overflow: hidden;
     -webkit-flex:1;-moz-box-flex:1;-webkit-box-flex:1;flex:1;position: relative;display: block;}
-.u-scrollcontent{width: 100%;margin: 3.83rem 0;}
 /*flex:1 让所有灵活的项目都带有相同的长度，忽略它们的内容*/
 
-.u-footicon{width: 2rem;}
-.u-footicon i{width: 1rem;font-size: 1rem;height: 1rem;}
-.u-footicon span{width: 1rem;font-size: 0.5rem;}
+.g-footfixed ul{padding: .5rem;}
+.g-footfixed ul li{float: left;width: 25%;text-align: center;}
+.g-footfixed ul li a{margin: 0 auto;}
+.u-footicon{line-height: 1.5rem;}
+.u-footicon i{font-size: 2rem;color: #fff;}
+.u-footicon span{display: block;font-size: 1rem;color: #fff;}

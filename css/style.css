@@ -18,9 +18,15 @@
 .u-search-area{text-align: center;font-size:1.4rem;width:20rem;height: 2.4rem;line-height:2.4rem;border-radius: 0.3rem;-moz-border-radius: 0.3rem;
     -webkit-border-radius: 0.3rem;border: 0;vertical-align: middle;margin-left:1.5rem;background-color: #A03D3F;color: #fff;}
 .u-search-area i{font-size:1.4rem }
-.u-scrollcontent{width: 100%;  height: 16.5rem;overflow: hidden;}
-.swiper-slide {  text-align: center;  background: #fff;
-    display: -webkit-box;  display: -ms-flexbox;  display: -webkit-flex;  display: flex;
-    -webkit-box-pack: center;  -ms-flex-pack: center;  -webkit-justify-content: center;  justify-content: center;
-    -webkit-box-align: center;  -ms-flex-align: center;  -webkit-align-items: center;  align-items: center; }
-.swiper-slide  img{width: 100%;height: 100%;}
+.u-scrollcontent{width: 100%;  height: 7rem;margin-top: 3.83rem;overflow: hidden;}
+.swiper-slide {  text-align: center;  background: #fff;  display: -webkit-box;  display:
+    -ms-flexbox;  display: -webkit-flex;  display: flex;  -webkit-box-pack: center;
+    -ms-flex-pack: center;  -webkit-justify-content: center;  justify-content: center;
+    -webkit-box-align: center;  -ms-flex-align: center;  -webkit-align-items: center;
+    align-items: center; }
+.swiper-slide  img{width: 100%;}
+.bodymenubox{margin: 0rem auto;width: 100%;}
+.bodymenubox ul{padding:10px;display: block;overflow: hidden;}
+.bodymenubox ul li{float:left;margin: 1rem;}
+.u-iconbg{width: 3.9rem;height: 3.9rem;line-height: 4rem;border-radius:50%;background-color: #007aff;color:#fff;text-align: center;}
+.u-iconbg i{font-size:3rem;}
