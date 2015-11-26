@@ -9,7 +9,7 @@ address,cite,dfn,em,var{font-style:normal}
 code,kbd,pre,samp,tt{font-family:"Courier New",Courier,monospace}
 small{font-size:12px}
 ul,ol,li{list-style:none}
-a{text-decoration:none}
+a{text-decoration:none;color: #666666;}
 abbr[title],acronym[title]{border-bottom:1px dotted;cursor:help}
 q:before,q:after{content:''}
 legend{color:#000}
@@ -63,15 +63,14 @@ html{font-size: 62.5%}
 
 body{margin: 0 auto;width: 100%;max-width: 640px; min-width: 320px;}
 .bodybox{margin: 0 auto;width: 100%;margin-top: 3.83rem;overflow: hidden;}
-.s-gray{background-color: #ededed;}
-header{height:3.83rem;width:100%;position:relative;background-color: #e74649;line-height: 3.83rem;
-    color: #fff;font-size: 2rem;text-align: center;vertical-align: middle;padding: 0.8rem;box-sizing: border-box;}
-header a{height:3.83rem;line-height: 3.83rem;color: #fff;font-size: 1.5rem;position: absolute;}
-header .u-backicon{left: 1rem;}
-header .u-menuicon{right: 1rem;}
-header .u-logoname{height:2.23rem;line-height: 2.23rem;color: #fff;font-size: 1.5rem;margin-left: 0.8rem;}
-footer{height:3.83rem;width:100%;position:relative;background-color: #e74649;line-height: 3.83rem;
-    color: #fff;font-size: 2rem;text-align: center;}
+header{height:3.83rem;width:100%;position:relative;background-color: #e74649;line-height: 3.83rem;z-index:999;
+    color: #fff;font-size: 2rem;text-align: center;vertical-align: middle;padding:0  0.8rem;box-sizing: border-box;overflow: hidden;}
+header a{height:3.83rem;line-height: 3.83rem;color: #fff;font-size: 1.5rem;}
+header .u-backicon i{font-size: 3rem; line-height: 4rem;}
+header .con{-webkit-box-flex: 1;}
+header input {    width: 80%;  height: 2rem;  vertical-align: middle;  border: 1px solid #cdcdcd;}
+header .u-logoname{height: 3.83rem;line-height: 3.83rem;color: #fff;font-size: 1.5rem;margin-left: 0.8rem;}
+footer{height:3.83rem;width:100%;position:relative;line-height: 3.83rem;font-size: 2rem;text-align: center;}
 input[type='tel']{width:100%;height: 3.5rem;line-height: 2.5rem;font-size:1.17rem;padding-left:3.5rem;
     border: 0.083rem solid #ddd;border-radius: 0.3rem;-moz-border-radius: 0.3rem;-webkit-border-radius: 0.3rem;
     box-sizing: border-box;}
@@ -87,15 +86,33 @@ input[type='checkbox']:checked:after{content: 'd';font-size:1.1rem;}
 input[type='checkbox']:checked{background-color: #e74649;color: #fff;border: 0;}
 .g-headfixed{width: 100%;max-width: 640px; min-width: 320px;background-color: #e74649;
     margin: 0 auto;top:0;display: block;position: fixed;z-index:30;}
-.g-footfixed{width: 100%;max-width: 640px; min-width: 320px;background-color: #e74649;
-    margin: 0 auto;bottom:0;position: fixed;display: block;}
-.g-scrollwrap{width: 100%;max-width: 640px; min-width: 320px;overflow: hidden;
-    -webkit-flex:1;-moz-box-flex:1;-webkit-box-flex:1;flex:1;position: relative;display: block;}
+.g-footfixed{width: 100%;max-width: 640px; min-width: 320px;margin: 0 auto;bottom:0;position: fixed;border-top: 1px solid #666666;background-color: #fff;}
+.g-scrollwrap{width: 100%;max-width: 640px; min-width: 320px;overflow: scroll;padding: 4rem 0;position: relative;display: block;}
 /*flex:1 让所有灵活的项目都带有相同的长度，忽略它们的内容*/
 
 .g-footfixed ul{padding: .5rem;}
 .g-footfixed ul li{float: left;width: 25%;text-align: center;}
 .g-footfixed ul li a{margin: 0 auto;}
 .u-footicon{line-height: 1.5rem;}
-.u-footicon i{font-size: 2rem;color: #fff;}
-.u-footicon span{display: block;font-size: 1rem;color: #fff;}
+.u-footicon i{font-size: 2rem;}
+.u-footicon span{display: block;font-size: 1rem;}
+
+/*skin bg clolor*/
+.s-gray{background-color: #ededed;}
+.s-bg-blue{background-color: #0e90d2;}
+.s-bg-orange{background-color: #FF9500;}
+.s-bg-red{background-color: #DD2727;}
+.s-bg-green{background-color: #6cd281;}
+.s-bg-yellow{background-color: #d2c646;}
+.s-bg-pink{background-color: #de4ba5;}
+.s-bg-white{background-color: #ffffff;}
+
+/*font color*/
+.s-white{color: #fff;}
+.s-blue{color: #0e90d2;}
+.s-orange{color: #E9967A;}
+.s-green{color: #6cd281;}
+.s-yellow{color: #d2c646;}
+.s-pink{color: #de4ba5;}
+.s-darkgray{color: #666666;}
+.s-red{color:#e74649}
