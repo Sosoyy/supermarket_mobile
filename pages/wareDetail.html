@@ -29,7 +29,7 @@
 </head>
 <body style="background-color: #eee">
 <header class="m-h-showbox u-h-header s-bg-white u-waredetail-header ">
-    <a href="javascript:void(0);" class="u-backicon"><i class="iconfont s-darkgray">&#xe606;</i></a>
+    <a href="javascript:history.go(-1);" class="u-backicon"><i class="iconfont s-darkgray">&#xe606;</i></a>
 
     <div class="u-tab s-darkgray">
         <ul>
@@ -49,7 +49,7 @@
             </a>
         </li>
         <li>
-            <a href="javascript:void(0);" class="u-footicon block">
+            <a href="cart.html" class="u-footicon block">
                 <i class="iconfont s-darkgray">&#xe601;</i>
                 <span>购物车</span>
             </a>
@@ -187,17 +187,17 @@
         </a>
     </div>
     <div class="m-cartbtn">
-        <a href="#" class="u-footicon block">
+        <a href="cart.html" class="u-footicon block">
             <i class="iconfont line s-darkgray">&#xe601;</i>
             <i class="iconfont fill s-red  none">&#xe600;</i>
             <span>购物车</span>
         </a>
     </div>
     <div class="m-addcartbtn">加入购物车</div>
-    <div class="m-buy">立即购买</div>
+    <div class="m-buy"><a href="confirmOrder.html" style="color: #fff;">立即购买</a></div>
 </div>
 <div class="cover-decision none"></div>
-<div class="u-cover parameter none">
+<div class="u-cover parameter" style="display: none;">
     <h3>产品参数</h3>
     <ul>
         <li>
@@ -240,7 +240,7 @@
     <a class="u-closebtn">关闭</a>
 </div>
 
-<div class="u-cover choose none">
+<div class="u-cover choose" style="display: none;">
     <div class="u-small-img"><img src="../i/head.jpg"></div>
     <div class="u-main">
         <div class="price"><span>￥89</span></div>
@@ -277,13 +277,15 @@
         </div>
     </div>
     <div class="u-btnArea m-h-showbox">
-        <a class="s-bg-orange">加入购物车</a>
+        <a class="s-bg-orange" >加入购物车</a>
         <a class="s-bg-red">立即购买</a>
     </div>
 
 </div>
 
 <script src="../js/zepto.js"></script>
+<script src="../js/iscroll.js"></script>
+
 <script src="../js/swiper.min.js"></script>
 <script src="../js/wareDetail.js"></script>
 </body>
